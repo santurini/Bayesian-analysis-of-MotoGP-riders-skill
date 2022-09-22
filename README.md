@@ -11,7 +11,7 @@ described in [van Kesteren and Bergkamp, 2022](https://arxiv.org/pdf/2203.08489.
 ## The Data
 
 The model was applied to the MotoGP 2016-2021 seasons data that were scraped from
-the official [MotoGP](https://www.motogp.com/en/world-standing/2022/MotoGP/Championship) web page and available at the following [link](https://observablehq.com/@piratus/motogp-results-database) as csv files.
+the official [MotoGP](https://www.motogp.com/en/world-standing/2022/MotoGP/Championship) web page and available at the following [link](https://observablehq.com/@piratus/motogp-results-database) as csv files. All the trasnformation can be found in the code and are explained in the report.
 
 This are the first five records of the dataset:
 |Year|Sequence|Rider           |Constructor           |Position|Weather|POC|POC smoothed|
@@ -22,6 +22,32 @@ This are the first five records of the dataset:
 | 2016 | 1 | Valentino Rossi | Yamaha Factory | 4 | Dry | 0.79 | 0.77 |
 | 2016 | 1 | Dani Pedrosa | Repsol Honda Team | 5 | Dry | 0.71 | 0.70 |
 
+## The Model
 
+The proposed model is a multilevel Beta regression to estimate the smoothed POC
+but, as said before, what we are more interested in is the mean of the Beta distribution
+that is obtained as a sum of the rider skill and constructor advantage.
+
+For each rider r and for each constructor c we specify two parameters: the long term
+skill/advantage and the seasonal one.
+
+$$
+y_{rcs} \sim Beta(\mu_{rcs}, \ \phi), \ \phi = dispersion
+$$
+$$
+\mu_{rcs} = \beta_r + \beta_{rs} + \beta_c + \beta_{cs}
+$$
+$$
+\beta_r \sim N(0, \sigma_r^2)
+$$
+$$
+\beta_{rs} \sim N(0, \sigma_{rs}^2)
+$$
+$$
+\beta_c \sim N(0, \sigma_c^2)
+$$
+$$
+\beta_{cs} \sim N(0, \sigma_{cs}^2)
+$$
 
 
