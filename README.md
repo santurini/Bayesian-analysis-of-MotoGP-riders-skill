@@ -55,9 +55,7 @@ $$
 \beta_{cs} \sim N(0, \sigma_{cs}^2)
 $$
 
-When taking into account also the weather impact:
-
-$\gamma_{1r}$ as follows:
+When taking into account also the weather impact as a boolean variable $\gamma_{1r}$ :
 
 $$
 \beta_r = \gamma_{0r} + \gamma_{1r} \cdot weather
