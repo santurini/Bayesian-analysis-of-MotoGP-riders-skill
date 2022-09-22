@@ -34,18 +34,23 @@ skill/advantage and the seasonal one.
 $$
 y_{rcs} \sim Beta(\mu_{rcs}, \ \phi), \ \phi = dispersion
 $$
+
 $$
 \mu_{rcs} = \beta_r + \beta_{rs} + \beta_c + \beta_{cs}
 $$
+
 $$
 \beta_r \sim N(0, \sigma_r^2)
 $$
+
 $$
 \beta_{rs} \sim N(0, \sigma_{rs}^2)
 $$
+
 $$
 \beta_c \sim N(0, \sigma_c^2)
 $$
+
 $$
 \beta_{cs} \sim N(0, \sigma_{cs}^2)
 $$
