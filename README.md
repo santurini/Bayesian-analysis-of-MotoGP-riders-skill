@@ -14,8 +14,8 @@ The model was applied to the MotoGP 2016-2021 seasons data that were scraped fro
 the official [MotoGP](https://www.motogp.com/en/world-standing/2022/MotoGP/Championship) web page and available at the following [link](https://observablehq.com/@piratus/motogp-results-database) as csv files.
 
 This are the first five records of the dataset:
-| Year  | Sequence  | Rider  | Constructor  | Position  | Weather   |  POC   | POC smoothed   |
-|:------|:------|:-------------------|:-------------------|:------|:------|:------|:------|
+|Year|Sequence|Rider           |Constructor           |Position|Weather|POC|POC smoothed|
+|:------|:------|:----------------------------|:---------------------------|:------|:------|:------|:------|
 | 2016 | 1 | Jorge Lorenzo | Yamaha Factory | 1 | Dry | 1.00 | 0.97 |
 | 2016 | 1 | Andrea Dovizioso | Ducati | 2 | Dry | 0.93 | 0.90 |
 | 2016 | 1 | Marc Marquez | Repsol Honda Team | 3 | Dry | 0.86 | 0.83 |
