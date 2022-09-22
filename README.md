@@ -61,3 +61,32 @@ $$
 \beta_r = \gamma_{0r} + \gamma_{1r} \cdot weather
 $$
 
+## The Framework
+
+The model was estimated using the software package [brms](https://mc-stan.org/users/interfaces/brms) with the default priors for all parameter types. We used 4 Monte Carlo Markov Chains with 10000 iterations
+and a fixed burn-in of 1000 observations.
+
+The model will output not only the values of skill and advantage for each rider,
+season and constructor but also the standard deviations of the distributions of the
+parameters that are the ones we are more interested in in order to evaluate the impact.
+
+## The Results
+
+We are satisfied with the results obtained. In fact, both models achieved
+the results we expected, that is to demonstrate that in MotoGP the rider’s ability is
+much more influential than the strength of the bike (for the base model) and that in
+the case of wet races this gap becomes even wider. 
+
+Therefore, we believe that the second model is the most complete and suitable for estimating the contributions of the bike and rider in the outcome of a race also under different weather conditions.
+The real strength of the model is in fact its bivalence for different weather conditions,
+so it also incorporates the basic model by extending and improving it to make it able
+to analyze in more detail.
+
+Here some plots of the model outputs to better understand the results of the model.
+
+|Posterior check|Overall performance|Skill evolution|
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img width="512" src="https://user-images.githubusercontent.com/91251307/191751113-52651244-57d4-43da-9f62-b368e39652f5.png">|<img width="512" src="https://user-images.githubusercontent.com/91251307/191751245-b321c521-6258-4b9f-a6cd-26102f5c78ff.png">|<img width="512" src="https://user-images.githubusercontent.com/91251307/191751371-30a8e8f0-da51-4530-b9ac-e2eb8b503b46.png">|
+
+
+
