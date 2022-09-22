@@ -82,11 +82,24 @@ The real strength of the model is in fact its bivalence for different weather co
 so it also incorporates the basic model by extending and improving it to make it able
 to analyze in more detail.
 
-Here some plots of the model outputs to better understand the results of the model.
+Here some plots of the model outputs to better understand the results of the model:
 
 |Posterior check|Overall performance|Skill evolution|
 |:-------------------------:|:-------------------------:|:-------------------------:|
 |<img width="512" src="https://user-images.githubusercontent.com/91251307/191751113-52651244-57d4-43da-9f62-b368e39652f5.png">|<img width="512" src="https://user-images.githubusercontent.com/91251307/191751245-b321c521-6258-4b9f-a6cd-26102f5c78ff.png">|<img width="512" src="https://user-images.githubusercontent.com/91251307/191751371-30a8e8f0-da51-4530-b9ac-e2eb8b503b46.png">|
+
+## The Report
+
+All the details of the project are extensively discussed in the [report](https://github.com/santurini/Bayesian-analysis-of-MotoGP-riders-skill/blob/main/Report.pdf) that can be found in the repository. The main results of the model and their numerical and non-numerical interpretation are discussed there for those who were interested.
+
+<br />
+<br />
+<br />
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/50860347/147412786-183da6b0-990f-4016-9f2e-0719d8066f5b.png" style="width: 100%"/>
+<p>
+
+<br />
 
 
 
