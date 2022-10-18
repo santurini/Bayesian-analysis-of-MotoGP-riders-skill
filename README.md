@@ -12,6 +12,8 @@ described in [van Kesteren and Bergkamp, 2022](https://arxiv.org/pdf/2203.08489.
 
 ## Repository content
 - [**code folder**](https://github.com/santurini/Bayesian-analysis-of-MotoGP-riders-skill/tree/main/code) in which are contained the scripts for the [EDA](https://github.com/santurini/Bayesian-analysis-of-MotoGP-riders-skill/blob/main/code/bayes_motogp.R) and the implementation for the [basic](https://github.com/santurini/Bayesian-analysis-of-MotoGP-riders-skill/blob/main/code/basic.R) and the [weather](https://github.com/santurini/Bayesian-analysis-of-MotoGP-riders-skill/blob/main/code/weather.R) model.
+- [**data folder**](https://github.com/santurini/Bayesian-analysis-of-MotoGP-riders-skill/tree/main/data) which contains:
+    - dsklfn
 
 ## The Data
 
