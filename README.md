@@ -11,9 +11,19 @@ models the individual race success as the proportion of outperformed competitors
 described in [van Kesteren and Bergkamp, 2022](https://arxiv.org/pdf/2203.08489.pdf).
 
 ## Repository content
-- [**code folder**](https://github.com/santurini/Bayesian-analysis-of-MotoGP-riders-skill/tree/main/code) in which are contained the scripts for the [EDA](https://github.com/santurini/Bayesian-analysis-of-MotoGP-riders-skill/blob/main/code/bayes_motogp.R) and the implementation for the [basic](https://github.com/santurini/Bayesian-analysis-of-MotoGP-riders-skill/blob/main/code/basic.R) and the [weather](https://github.com/santurini/Bayesian-analysis-of-MotoGP-riders-skill/blob/main/code/weather.R) model.
+- [**code folder**](https://github.com/santurini/Bayesian-analysis-of-MotoGP-riders-skill/tree/main/code) in which are contained:
+    - [EDA](https://github.com/santurini/Bayesian-analysis-of-MotoGP-riders-skill/blob/main/code/bayes_motogp.R) script
+    - [basic](https://github.com/santurini/Bayesian-analysis-of-MotoGP-riders-skill/blob/main/code/basic.R) model implementation
+    - [weather](https://github.com/santurini/Bayesian-analysis-of-MotoGP-riders-skill/blob/main/code/weather.R) model implementation
 - [**data folder**](https://github.com/santurini/Bayesian-analysis-of-MotoGP-riders-skill/tree/main/data) which contains:
-    - dsklfn
+    - [_motogp.rds_](https://github.com/santurini/Bayesian-analysis-of-MotoGP-riders-skill/blob/main/data/motogp.rds), the file with the preprocessed dataset
+    - [_races.csv_](https://github.com/santurini/Bayesian-analysis-of-MotoGP-riders-skill/blob/main/data/races.csv), the basic dataset
+    - [_weather_condition.csv_](https://github.com/santurini/Bayesian-analysis-of-MotoGP-riders-skill/blob/main/data/weather_condition.csv), the full dataset for the weather model implementation
+- [**plots folder**](https://github.com/santurini/Bayesian-analysis-of-MotoGP-riders-skill/tree/main/plots) which contains the following subfolders:
+    - [_EDA_](https://github.com/santurini/Bayesian-analysis-of-MotoGP-riders-skill/tree/main/plots/EDA), plots of the exploratory data analysis
+    - [_basic_model_](https://github.com/santurini/Bayesian-analysis-of-MotoGP-riders-skill/tree/main/plots/basic_model), plots of the basic model analysis 
+    - [_weather_model_](https://github.com/santurini/Bayesian-analysis-of-MotoGP-riders-skill/tree/main/plots/weather_model), plots of the weather model analysis
+- [_**Report.pdf**_](https://github.com/santurini/Bayesian-analysis-of-MotoGP-riders-skill/blob/main/Report.pdf), an exhaustive report about the models applied, the analysis and the results obtained
 
 ## The Data
 
