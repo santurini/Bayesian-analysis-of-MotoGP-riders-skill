@@ -101,7 +101,7 @@ to analyze in more detail.
 
 Here some plots of the model outputs to better understand the results of the model:
 
-|Posterior check|Overall performance|Skill evolution|
+|Posterior Check|Overall Performance|Skill Evolution|
 |:-------------------------:|:-------------------------:|:-------------------------:|
 |<img width="512" src="https://user-images.githubusercontent.com/91251307/191751113-52651244-57d4-43da-9f62-b368e39652f5.png">|<img width="512" src="https://user-images.githubusercontent.com/91251307/191751245-b321c521-6258-4b9f-a6cd-26102f5c78ff.png">|<img width="512" src="https://user-images.githubusercontent.com/91251307/191751371-30a8e8f0-da51-4530-b9ac-e2eb8b503b46.png">|
 
