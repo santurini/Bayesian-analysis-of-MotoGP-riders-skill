@@ -10,6 +10,16 @@ To be able to do that we will use a multilevel Beta regression that
 models the individual race success as the proportion of outperformed competitors, as
 described in [van Kesteren and Bergkamp, 2022](https://arxiv.org/pdf/2203.08489.pdf).
 
+## Friendly Reminder
+
+- If you use or take inspiration from this repository please cite with this link: [santurini/Bayesian-Analysis-of-MotoGP-Riders-Skill
+](https://github.com/santurini/Bayesian-Analysis-of-MotoGP-Riders-Skill)
+
+Your support will be truly appreciated and feel free to contact me at my following links or just send me an email:
+- [Linkedin](https://www.linkedin.com/in/arturo-ghinassi-50b8a0219/)
+- [Kaggle](https://www.kaggle.com/santurini)
+- ghinassi.1863151@studenti.uniroma1.it
+
 ## Repository content
 - [**code folder**](https://github.com/santurini/Bayesian-analysis-of-MotoGP-riders-skill/tree/main/code) in which are contained:
     - [EDA](https://github.com/santurini/Bayesian-analysis-of-MotoGP-riders-skill/blob/main/code/bayes_motogp.R) script
