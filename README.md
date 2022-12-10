@@ -12,7 +12,7 @@ described in [van Kesteren and Bergkamp, 2022](https://arxiv.org/pdf/2203.08489.
 
 ## Friendly Reminder
 
-- If you use or take inspiration from this repository please cite with this link: [santurini/Bayesian-Analysis-of-MotoGP-Riders-Skill
+If you use or take inspiration from this repository please cite with this link: [santurini/Bayesian-Analysis-of-MotoGP-Riders-Skill
 ](https://github.com/santurini/Bayesian-Analysis-of-MotoGP-Riders-Skill)
 
 Your support will be truly appreciated and feel free to contact me at my following links or just send me an email:
